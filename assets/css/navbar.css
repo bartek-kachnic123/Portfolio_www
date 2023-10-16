@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: antiquewhite;
+}
+.navbar  a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.navbar a:hover {
+    transition: 10ms;
+    transform: scale(1.5);
+    text-decoration-style: double;
+}
+.navbar {
+    overflow: hidden;
+    background: #c7fcff;
+    border-radius: 5px 20px 10px;
+    box-shadow: 2px 2px 2px;
+}
